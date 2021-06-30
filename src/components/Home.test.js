@@ -10,7 +10,7 @@ test("renders without crashing", () => {
   ReactDOM.render(<Home />, div);
 });
 
-test("renders paragraph correctly", () => {
+test("renders content correctly", () => {
   const { getByTestId } = render(<Home />);
   // expect(getByTestId("newid")).toHaveTextContent("Faraz");
   expect(getByTestId("newid")).toHaveTextContent("Furqan");
